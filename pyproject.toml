@@ -3,6 +3,7 @@ name = "cytotools"
 version = "0.1.1"
 description = ""
 authors = ["burtonrj <burtonrj@cardiff.ac.uk>"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
