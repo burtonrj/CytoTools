@@ -1,5 +1,9 @@
 
-![logo](https://imgur.com/bPF7Lbl | width=100)
+![logo]()
+
+<p align="center">
+  <img src="https://imgur.com/bPF7Lbl" height="25%" width="25%">
+</p>
 
 # CytoTools
 [![PyPi](https://img.shields.io/pypi/v/cytotools)](https://pypi.org/project/cytotools/)
