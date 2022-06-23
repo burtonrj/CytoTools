@@ -1,5 +1,5 @@
 
-![logo](https://i.imgur.com/bPF7Lbll.png | width=100)
+![logo](https://imgur.com/bPF7Lbl | width=100)
 
 # CytoTools
 [![PyPi](https://img.shields.io/pypi/v/cytotools)](https://pypi.org/project/cytotools/)
