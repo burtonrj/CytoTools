@@ -2,3 +2,6 @@ _build
 .pytest_cache
 .idea
 dist
+coverage
+.coverage
+.coverage.*

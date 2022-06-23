@@ -33,7 +33,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
 
       - name: Run pytest
-        run: poetry run python -m pytest --import-mode=append cytotools/tests/
+        run: poetry run python -m pytest --import-mode=append cytotools/tests/ --cov=cytotools/tests
 
       - name: Run Coverage
         run: poetry run python -m coverage report -m;
@@ -41,3 +41,5 @@ jobs:
       - name: Generate XML Report
         run: poetry run python -m coverage xml
 
+      - name: Codecov
+        uses: codecov/codecov-action@v3.1.0
