@@ -1,2 +1,3 @@
 _build
 .pytest_cache
+.idea
