@@ -8,9 +8,9 @@
 [![Wheel](https://img.shields.io/pypi/wheel/cytotools)](https://pypi.org/project/cytotools/)
 [![Downloads](https://img.shields.io/pypi/dm/cytotools)](https://pypi.org/project/cytotools/)
 [![License]( https://img.shields.io/pypi/l/cytotools)](https://opensource.org/licenses/MIT)
-[![LastCommit](https://img.shields.io/github/last-commit/burtonrj/cytotools)](https://github.com/burtonrj/cytotools)
+[![LastCommit](https://img.shields.io/github/last-commit/burtonrj/cytotools)]()
 [![CodeCov](https://img.shields.io/codecov/c/github/burtonrj/cytotools)]()
-[![GitHubActions](https://img.shields.io/github/workflow/status/burtonrj/cytotools/build)]()
+[![GitHubActions](https://img.shields.io/github/workflow/status/burtonrj/cytotools/CytoTools%20Build)]()
 
 ---
 
