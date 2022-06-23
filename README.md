@@ -6,7 +6,6 @@
 [![PyPi](https://img.shields.io/pypi/v/cytotools)](https://pypi.org/project/cytotools/)
 [![Python](https://img.shields.io/pypi/pyversions/cytotools)](https://pypi.org/project/cytotools/)
 [![Wheel](https://img.shields.io/pypi/wheel/cytotools)](https://pypi.org/project/cytotools/)
-[![Downloads](https://img.shields.io/pypi/dm/cytotools)](https://pypi.org/project/cytotools/)
 [![License]( https://img.shields.io/pypi/l/cytotools)](https://opensource.org/licenses/MIT)
 [![LastCommit](https://img.shields.io/github/last-commit/burtonrj/cytotools)]()
 [![CodeCov](https://img.shields.io/codecov/c/github/burtonrj/cytotools)]()
