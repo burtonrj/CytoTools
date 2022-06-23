@@ -33,7 +33,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
 
       - name: Run pytest
-        run: PYTHONPATH=src/ poetry run python -m pytest -v --cov=cytotools/ tests/
+        run: PYTHONPATH=cytotools/ poetry run python -m pytest -v --cov=cytotools/ tests/
 
       - name: Run Coverage
         run: PYTHONPATH=cytotools/ poetry run python -m coverage report -m;
