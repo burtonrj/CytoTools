@@ -2,7 +2,7 @@
 ![logo]()
 
 <p align="center">
-  <img src="https://imgur.com/bPF7Lbl" height="25%" width="25%">
+  <img src="https://i.imgur.com/bPF7Lbl.png" height="75%" width="75%">
 </p>
 
 # CytoTools
