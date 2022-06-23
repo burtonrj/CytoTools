@@ -1606,7 +1606,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a69e66b2382ee59a992d34c8d5c24d1acf97474fe1f3283cc13bce36087411ed"
+content-hash = "7557323d201db05f26cc7e287caedd82200e9dd91a86aa015fdeb4f73089bedd"
 
 [metadata.files]
 aiobotocore = [

@@ -1,6 +1,3 @@
-
-![logo]()
-
 <p align="center">
   <img src="https://i.imgur.com/bPF7Lbl.png" height="25%" width="25%">
 </p>
