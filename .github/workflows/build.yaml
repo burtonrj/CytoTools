@@ -33,11 +33,11 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
 
       - name: Run pytest
-        run: PYTHONPATH=cytotools/ poetry run python -m pytest -v --cov=cytotools/ tests/
+        run: poetry run python -m pytest --import-mode=append cytotools/tests/
 
       - name: Run Coverage
-        run: PYTHONPATH=cytotools/ poetry run python -m coverage report -m;
+        run: poetry run python -m coverage report -m;
 
       - name: Generate XML Report
-        run: PYTHONPATH=cytotools/ poetry run python -m coverage xml
+        run: poetry run python -m coverage xml
 
