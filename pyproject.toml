@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cytotools"
-version = "0.1.1"
+version = "0.1.11"
 description = "A small package of utilities for analysis of cytometry data in Python"
 authors = ["burtonrj <burtonrj@cardiff.ac.uk>"]
 license = "MIT"
