@@ -377,7 +377,7 @@ def upsample_knn(
     features: List[str],
     scoring: str = "balanced_accuracy",
     **kwargs,
-) -> pd.DataFrame:
+) -> np.ndarray:
     """
     Given some sampled dataframe and the original dataframe from which it was derived, use the
     given labels (which should correspond to the sampled dataframe row index) to fit a nearest
