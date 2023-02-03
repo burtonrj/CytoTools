@@ -1,9 +1,15 @@
 [tool.poetry]
 name = "cytotools"
-version = "0.1.11"
+version = "0.1.22"
 description = "A small package of utilities for analysis of cytometry data in Python"
 authors = ["burtonrj <burtonrj@cardiff.ac.uk>"]
 license = "MIT"
+exclude = [
+    "cytotools/tests/assets/levine32.csv",
+    "cytotools/tests/assets/test.fcs",
+    "cytotools/tests/assets/panel.xlsx",
+    "cytotools/tests/assets/population_names_Levine_32dim.txt"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -12,7 +18,7 @@ ipython = "^8.4.0"
 numpy = "^1.22.4"
 pandas = "^1.4.2"
 phate = "^1.0.8"
-scikit-learn = "^1.1.1"
+scikit-learn = ">=1.0.1, <1.1.0"
 umap-learn = "^0.5.3"
 detecta = "^0.0.5"
 KDEpy = "^1.1.0"

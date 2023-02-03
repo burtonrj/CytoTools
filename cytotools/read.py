@@ -336,7 +336,7 @@ def read_from_disk(path: str, **kwargs) -> pl.DataFrame:
         Invalid file extension
     """
     if match_file_ext(path=path, ext=".fcs"):
-        return fcs_to_polars(flowio.FlowData(filename_or_handle=path))
+        return fcs_to_polars(flowio.FlowData(filename_or_handle=path, **kwargs))
     elif match_file_ext(path, ext=".csv"):
         data = pl.read_csv(path, **kwargs)[pl.col("*").cast(pl.Float64)]
     elif match_file_ext(path, ext=".parquet"):
